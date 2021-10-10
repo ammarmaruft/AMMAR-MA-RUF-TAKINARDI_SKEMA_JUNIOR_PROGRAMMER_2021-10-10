@@ -1,0 +1,49 @@
+/* agar posisi berada di tengah dengan dengan padding atas 200px dan panjang 400px*/
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 400px;
+}
+/*membuat tampilan calculator enak dilihat dan rapi*/
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/*untuk tombol kalkulator*/
+.calculator-keys {
+    width: 100%;
+}
+.row {
+    display: flex;
+}
+/*untuk tombol kalkulator*/
+button {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+}
+.all-clear, .zero-btn {
+    width: 50%;
+}
+.operator, .equal-sign {
+    background-color: orange;
+}
+/*menambahkan efek berupa perubahan warna ketika kursos berada di tombol tersebut*/
+button:hover {
+    background-color: darkgray;
+}
+.operator:hover, .equal-sign:hover {
+    background-color: darkorange;
+}
